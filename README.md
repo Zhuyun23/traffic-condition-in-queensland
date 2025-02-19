@@ -62,15 +62,16 @@ The analysis has yielded recommendations from two main perspectives:
 1. Government Policy Perspective
 2. Public Safety Awareness Perspective
 
-
 ## Project Structure
+```text
+project/
+├── data/
+│   ├── raw/          # Original datasets
+│   └── processed/    # Cleaned and processed data
+├── notebooks/        # Analysis notebooks
+├── scripts/          # Python scripts for data processing
+└── results/          # Analysis outputs and visualizations
 
-data/
-   raw/          # Original datasets
-   processed/    # Cleaned and processed data
-notebooks/        # Analysis notebooks
-scripts/          # Python scripts for data processing
-results/          # Analysis outputs and visualizations
 
 ## Data Access
 Due to the large size of the datasets, the data files are not stored directly in this repository. Please use the links provided in the Data Sources section to download the original datasets.
