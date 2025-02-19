@@ -62,6 +62,19 @@ The analysis has yielded recommendations from two main perspectives:
 1. Government Policy Perspective
 2. Public Safety Awareness Perspective
 
-(Detailed findings and recommendations to be added)
 
 ## Project Structure
+
+├── data/
+│   ├── raw/          # Original datasets
+│   └── processed/    # Cleaned and processed data
+├── notebooks/        # Analysis notebooks
+├── scripts/          # Python scripts for data processing
+└── results/          # Analysis outputs and visualizations
+
+## Data Access
+Due to the large size of the datasets, the data files are not stored directly in this repository. Please use the links provided in the Data Sources section to download the original datasets.
+
+
+---
+*Note: This project is based on public data from the Queensland Government Open Data Portal and aims to contribute to traffic safety improvements in Queensland.*
